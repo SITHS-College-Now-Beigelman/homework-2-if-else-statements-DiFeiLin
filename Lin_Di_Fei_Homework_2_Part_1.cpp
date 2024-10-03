@@ -69,7 +69,7 @@ int main(){
     if (month == 10 || month == 11){//season for October and November
         cout<<"It's now autumn!";
     }
-
+    return 0;
 }
 
 /*What is your month and day in numerical form (ie 3 22 for March 22nd)?3 22
