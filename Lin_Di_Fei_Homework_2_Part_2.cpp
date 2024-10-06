@@ -33,7 +33,7 @@ int main(){
         secondScore = firstScore;
         firstScore = score;
     }
-    else {
+    else {//if its not the smallest number, it shall be placed into the one previous to the smallest number
         secondScore = score;
     }
 
@@ -47,7 +47,7 @@ int main(){
     else if (score<=secondScore){
         thirdScore = score;
     }
-    else{
+    else{//if its not the smallest number, it shall be placed into the one previous to the smallest number
         thirdScore = secondScore;
         secondScore = score;
     }
@@ -64,7 +64,7 @@ int main(){
     else if (score<=thirdScore){
         fourthScore = score;
     }
-    else{
+    else{//if its not the smallest number, it shall be placed into the one previous to the smallest number
         fourthScore = thirdScore;
         thirdScore = score;
     }
@@ -83,7 +83,7 @@ int main(){
     else if(score<=fourthScore){
         fifthScore = score;
     }
-    else{
+    else{//if its not the smallest number, it shall be placed into the one previous to the smallest number
         fifthScore = fourthScore;
         fourthScore = score;
     }
@@ -102,7 +102,7 @@ int main(){
     else if (score<=fifthScore){
         sixthScore = score;
     }
-    else{
+    else{//if its not the smallest number, it shall be placed into the one previous to the smallest number
         sixthScore = fifthScore;
         fifthScore = score;
     }
